@@ -17,6 +17,7 @@ public class JsonRead1 {
 		JsonObject jsonObject=(JsonObject) jsonParser.parse(fileReader);
 		
 		System.out.println(jsonObject.get("username"));
+		System.out.println(jsonObject.get("rollNo"));
 
 	}
 
