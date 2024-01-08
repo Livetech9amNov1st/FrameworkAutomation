@@ -1,17 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-05T10:14:17 IST" name="Default suite" finished-at="2024-01-05T10:14:31 IST" duration-ms="13883">
+  <suite started-at="2024-01-08T10:27:56 IST" name="Suite" finished-at="2024-01-08T10:30:09 IST" duration-ms="132611">
     <groups>
     </groups>
-    <test started-at="2024-01-05T10:14:17 IST" name="Default test" finished-at="2024-01-05T10:14:31 IST" duration-ms="13883">
-      <class name="testscripts.regression.ValidateSelectHotelUsingHybrid">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testscripts.regression.ValidateSelectHotelUsingHybrid@53fe15ff]" started-at="2024-01-05T10:14:17 IST" name="beforeTest" finished-at="2024-01-05T10:14:17 IST" duration-ms="9" status="PASS">
+    <test started-at="2024-01-08T10:27:56 IST" name="Test" finished-at="2024-01-08T10:30:09 IST" duration-ms="132611">
+      <class name="testscripts.regression.ValidateSearchUsingPOMHybrid">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@548d708a]" started-at="2024-01-08T10:29:44 IST" name="setUp" finished-at="2024-01-08T10:30:00 IST" duration-ms="16006" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49fdbe2b]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method signature="validateLoginTest(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateSelectHotelUsingHybrid@53fe15ff]" started-at="2024-01-05T10:14:18 IST" name="validateLoginTest" data-provider="getData" finished-at="2024-01-05T10:14:31 IST" duration-ms="13306" status="PASS">
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@548d708a]" started-at="2024-01-08T10:30:00 IST" name="validateLoginTest1" data-provider="getData" finished-at="2024-01-08T10:30:05 IST" duration-ms="4414" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -21,8 +28,48 @@
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateLoginTest -->
-      </class> <!-- testscripts.regression.ValidateSelectHotelUsingHybrid -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@548d708a]" started-at="2024-01-08T10:30:05 IST" name="teardown" finished-at="2024-01-08T10:30:08 IST" duration-ms="3256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testscripts.regression.ValidateSearchUsingPOMHybrid -->
+      <class name="testscripts.regression.ValidateLoginUsingPOMHybrid">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:27:56 IST" name="beforeTest" finished-at="2024-01-08T10:27:56 IST" duration-ms="323" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:27:57 IST" name="setUp" finished-at="2024-01-08T10:29:37 IST" duration-ms="100141" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@49fdbe2b]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:29:37 IST" name="validateLoginTest1" data-provider="getData" finished-at="2024-01-08T10:29:41 IST" duration-ms="3869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{expectedTitle=Adactin.com - Search Hotel, password=reyaz123, username=reyaz009}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLoginTest1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:29:41 IST" name="teardown" finished-at="2024-01-08T10:29:44 IST" duration-ms="3252" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:30:08 IST" name="closeReports" finished-at="2024-01-08T10:30:09 IST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeReports -->
+      </class> <!-- testscripts.regression.ValidateLoginUsingPOMHybrid -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
