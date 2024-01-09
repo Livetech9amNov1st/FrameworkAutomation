@@ -18,6 +18,7 @@ import org.testng.annotations.BeforeTest;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
+import com.aventstack.extentreports.Status;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import utils.ExtentManager;
@@ -89,16 +90,21 @@ public class BaseTest {
 		if (browserName.equalsIgnoreCase("chrome")) {
 			WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
+			test.log(Status.INFO, "Started the browser " + browserName);
 		} else if (browserName.equalsIgnoreCase("firefox")) {
 			WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
+			test.log(Status.INFO, "Started the browser " + browserName);
 		}
 		if (browserName.equalsIgnoreCase("edge")) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
+			test.log(Status.INFO, "Started the browser " + browserName);
 		}
 
 		driver.get(configProp.getProperty("url"));
+		
+		test.log(Status.INFO, "Launched app using url  " + configProp.getProperty("url"));
 
 		driver.manage().window().maximize();
 

@@ -2,70 +2,70 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-01-08T10:27:56 IST" name="Suite" finished-at="2024-01-08T10:30:09 IST" duration-ms="132611">
+  <suite started-at="2024-01-09T10:03:46 IST" name="Suite" finished-at="2024-01-09T10:05:14 IST" duration-ms="88079">
     <groups>
     </groups>
-    <test started-at="2024-01-08T10:27:56 IST" name="Test" finished-at="2024-01-08T10:30:09 IST" duration-ms="132611">
+    <test started-at="2024-01-09T10:03:46 IST" name="Test" finished-at="2024-01-09T10:05:14 IST" duration-ms="88079">
       <class name="testscripts.regression.ValidateSearchUsingPOMHybrid">
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@548d708a]" started-at="2024-01-08T10:29:44 IST" name="setUp" finished-at="2024-01-08T10:30:00 IST" duration-ms="16006" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@4b013c76]" started-at="2024-01-09T10:04:30 IST" name="setUp" finished-at="2024-01-09T10:04:36 IST" duration-ms="6515" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@49fdbe2b]]>
+                <![CDATA[org.testng.TestRunner@3e03046d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@548d708a]" started-at="2024-01-08T10:30:00 IST" name="validateLoginTest1" data-provider="getData" finished-at="2024-01-08T10:30:05 IST" duration-ms="4414" status="PASS">
+        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@4b013c76]" started-at="2024-01-09T10:04:36 IST" name="validateLoginTest1" data-provider="getData" finished-at="2024-01-09T10:05:10 IST" duration-ms="34045" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{expectedTitle=Adactin.com - Search Hotel, password=reyaz123, Check InDate=03/01/2024, username=reyaz009, Location=Sydney}]]>
+                <![CDATA[{expectedTitle=Adactin.com - Search Hotel, password=reyaz123, Check InDate=03/01/2024, username=reyaz0806, Location=Sydney}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@548d708a]" started-at="2024-01-08T10:30:05 IST" name="teardown" finished-at="2024-01-08T10:30:08 IST" duration-ms="3256" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateSearchUsingPOMHybrid@4b013c76]" started-at="2024-01-09T10:05:10 IST" name="teardown" finished-at="2024-01-09T10:05:14 IST" duration-ms="3312" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- testscripts.regression.ValidateSearchUsingPOMHybrid -->
       <class name="testscripts.regression.ValidateLoginUsingPOMHybrid">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:27:56 IST" name="beforeTest" finished-at="2024-01-08T10:27:56 IST" duration-ms="323" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@663c9e7a]" started-at="2024-01-09T10:03:46 IST" name="beforeTest" finished-at="2024-01-09T10:03:47 IST" duration-ms="290" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:27:57 IST" name="setUp" finished-at="2024-01-08T10:29:37 IST" duration-ms="100141" status="PASS">
+        <test-method is-config="true" signature="setUp(org.testng.ITestContext)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@663c9e7a]" started-at="2024-01-09T10:03:47 IST" name="setUp" finished-at="2024-01-09T10:03:54 IST" duration-ms="7186" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[org.testng.TestRunner@49fdbe2b]]>
+                <![CDATA[org.testng.TestRunner@3e03046d]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:29:37 IST" name="validateLoginTest1" data-provider="getData" finished-at="2024-01-08T10:29:41 IST" duration-ms="3869" status="PASS">
+        <test-method signature="validateLoginTest1(java.util.HashMap)[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@663c9e7a]" started-at="2024-01-09T10:03:54 IST" name="validateLoginTest1" data-provider="getData" finished-at="2024-01-09T10:04:26 IST" duration-ms="31393" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[{expectedTitle=Adactin.com - Search Hotel, password=reyaz123, username=reyaz009}]]>
+                <![CDATA[{expectedTitle=Adactin.com - Search Hotel, password=reyaz123, username=reyaz0806}]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateLoginTest1 -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:29:41 IST" name="teardown" finished-at="2024-01-08T10:29:44 IST" duration-ms="3252" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@663c9e7a]" started-at="2024-01-09T10:04:26 IST" name="teardown" finished-at="2024-01-09T10:04:29 IST" duration-ms="3322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@1cf6d1be]" started-at="2024-01-08T10:30:08 IST" name="closeReports" finished-at="2024-01-08T10:30:09 IST" duration-ms="613" status="PASS">
+        <test-method is-config="true" signature="closeReports()[pri:0, instance:testscripts.regression.ValidateLoginUsingPOMHybrid@663c9e7a]" started-at="2024-01-09T10:05:14 IST" name="closeReports" finished-at="2024-01-09T10:05:14 IST" duration-ms="636" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeReports -->
